@@ -1,0 +1,26 @@
+
+#env
+ubuntu 18.04
+python-3.6
+pyspark
+spark-2.4.1
+hadoop-2.7
+
+#bash_profile
+export SPARK_HOME=~/spark/
+export PATH="$SPARK_HOME/bin:$PATH"
+export PYSPARK_PYTHON=python3
+
+#how to run
+1. The large "product" file is too large to submit. please insert a copy of the large "product" file in the same directorty.
+1. source ~/bash_profile.sh
+2. spark-submit hw4.py
+
+#input file
+query
+
+#output file
+Recommend
+
+#log file
+log

@@ -1,0 +1,425 @@
+2019-04-12 10:26:38 WARN  Utils:66 - Your hostname, milu-HP-ENVY-x360-m6-Convertible resolves to a loopback address: 127.0.1.1; using 10.1.10.18 instead (on interface wlo1)
+2019-04-12 10:26:38 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-04-12 10:26:40 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-04-12 10:26:43 INFO  SparkContext:54 - Running Spark version 2.4.0
+2019-04-12 10:26:43 INFO  SparkContext:54 - Submitted application: hw4 solution
+2019-04-12 10:26:43 INFO  SecurityManager:54 - Changing view acls to: milu
+2019-04-12 10:26:43 INFO  SecurityManager:54 - Changing modify acls to: milu
+2019-04-12 10:26:43 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-04-12 10:26:43 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-04-12 10:26:43 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(milu); groups with view permissions: Set(); users  with modify permissions: Set(milu); groups with modify permissions: Set()
+2019-04-12 10:26:44 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 42009.
+2019-04-12 10:26:44 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-04-12 10:26:44 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-04-12 10:26:44 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-04-12 10:26:44 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-04-12 10:26:44 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-445c18f9-0281-4bf3-b462-2539684a6ca2
+2019-04-12 10:26:44 INFO  MemoryStore:54 - MemoryStore started with capacity 434.4 MB
+2019-04-12 10:26:44 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-04-12 10:26:44 INFO  log:192 - Logging initialized @10891ms
+2019-04-12 10:26:45 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-04-12 10:26:45 INFO  Server:419 - Started @11094ms
+2019-04-12 10:26:45 INFO  AbstractConnector:278 - Started ServerConnector@1c2b9c4e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-04-12 10:26:45 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40b87823{/jobs,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b366be{/jobs/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@113f6b48{/jobs/job,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@18ed11c9{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f612fc{/stages,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6f795c21{/stages/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2d831c52{/stages/stage,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d796ab3{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@782d8ec2{/stages/pool,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@247a3906{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@69adfc0c{/storage,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6f072f78{/storage/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7b48f7c4{/storage/rdd,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@e0f53a2{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@84483f3{/environment,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5eee116c{/environment/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62a42ba2{/executors,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1642f617{/executors/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3a35b437{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14fea76c{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5744776a{/static,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26892e56{/,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@44606e7f{/api,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@dd2152a{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49281884{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-04-12 10:26:45 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://10.1.10.18:4040
+2019-04-12 10:26:45 INFO  Executor:54 - Starting executor ID driver on host localhost
+2019-04-12 10:26:45 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35721.
+2019-04-12 10:26:45 INFO  NettyBlockTransferService:54 - Server created on 10.1.10.18:35721
+2019-04-12 10:26:45 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-04-12 10:26:46 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 10.1.10.18, 35721, None)
+2019-04-12 10:26:46 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 10.1.10.18:35721 with 434.4 MB RAM, BlockManagerId(driver, 10.1.10.18, 35721, None)
+2019-04-12 10:26:46 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 10.1.10.18, 35721, None)
+2019-04-12 10:26:46 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 10.1.10.18, 35721, None)
+2019-04-12 10:26:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5a1ce120{/metrics/json,null,AVAILABLE,@Spark}
+548552
+{'Id': 174839, 'reviews': 805, 'rating': 5.0, 'categories': [426368, 727936, 130, 579588, 297864, 408328, 440328, 434574, 516494, 468374, 735766, 457752, 735772, 434974, 738464, 504236, 295214, 403502, 403504, 498862, 300208, 411316, 404276, 404278, 579510, 439610, 573628, 139452, 292669, 413896, 579534, 735694, 428500, 163414, 700246, 1077594, 508000, 163431, 418414, 163440, 163313, 416120, 292345, 579580, 284926]}
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 192.0 B, free 434.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 4.0 MB, free 430.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 430.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece1 stored as bytes in memory (estimated size 4.0 MB, free 426.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece1 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 426.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece2 stored as bytes in memory (estimated size 4.0 MB, free 422.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece2 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 422.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece3 stored as bytes in memory (estimated size 4.0 MB, free 418.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece3 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 418.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece4 stored as bytes in memory (estimated size 4.0 MB, free 414.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece4 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 414.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece5 stored as bytes in memory (estimated size 4.0 MB, free 410.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece5 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 410.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece6 stored as bytes in memory (estimated size 4.0 MB, free 406.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece6 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 406.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece7 stored as bytes in memory (estimated size 4.0 MB, free 402.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece7 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 402.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece8 stored as bytes in memory (estimated size 4.0 MB, free 398.4 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece8 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 398.4 MB)
+2019-04-12 10:27:43 INFO  MemoryStore:54 - Block broadcast_0_piece9 stored as bytes in memory (estimated size 614.4 KB, free 397.8 MB)
+2019-04-12 10:27:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece9 in memory on 10.1.10.18:35721 (size: 614.4 KB, free: 397.8 MB)
+2019-04-12 10:27:43 INFO  SparkContext:54 - Created broadcast 0 from reduceByKey at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:151
+2019-04-12 10:28:04 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 192.0 B, free 397.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 4.0 MB, free 393.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece1 stored as bytes in memory (estimated size 4.0 MB, free 389.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece1 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece2 stored as bytes in memory (estimated size 4.0 MB, free 385.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece2 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece3 stored as bytes in memory (estimated size 4.0 MB, free 381.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece3 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece4 stored as bytes in memory (estimated size 4.0 MB, free 377.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece4 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 377.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece5 stored as bytes in memory (estimated size 4.0 MB, free 373.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece5 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 373.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece6 stored as bytes in memory (estimated size 4.0 MB, free 369.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece6 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 369.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece7 stored as bytes in memory (estimated size 4.0 MB, free 365.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece7 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 365.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece8 stored as bytes in memory (estimated size 4.0 MB, free 361.8 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece8 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 361.8 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_1_piece9 stored as bytes in memory (estimated size 862.5 KB, free 361.0 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_1_piece9 in memory on 10.1.10.18:35721 (size: 862.5 KB, free: 361.0 MB)
+2019-04-12 10:28:05 INFO  SparkContext:54 - Created broadcast 1 from top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:28:05 INFO  SparkContext:54 - Starting job: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Registering RDD 2 (reduceByKey at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:151)
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Got job 0 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) with 1 output partitions
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156)
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[2] at reduceByKey at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:151), which has no missing parents
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 5.6 KB, free 361.0 MB)
+2019-04-12 10:28:05 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 3.4 KB, free 360.9 MB)
+2019-04-12 10:28:05 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 10.1.10.18:35721 (size: 3.4 KB, free: 361.0 MB)
+2019-04-12 10:28:05 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+2019-04-12 10:28:05 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ShuffleMapStage 0 (PairwiseRDD[2] at reduceByKey at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:151) (first 15 tasks are for partitions Vector(0))
+2019-04-12 10:28:05 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 1 tasks
+2019-04-12 10:28:05 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7924 bytes)
+2019-04-12 10:28:05 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2019-04-12 10:28:49 INFO  PythonRunner:54 - Times: total = 43884, boot = 389, init = 1557, finish = 41938
+2019-04-12 10:28:49 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1673 bytes result sent to driver
+2019-04-12 10:28:49 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 44087 ms on localhost (executor driver) (1/1)
+2019-04-12 10:28:49 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-04-12 10:28:49 INFO  PythonAccumulatorV2:54 - Connected to AccumulatorServer at host: 127.0.0.1 port: 32817
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - ShuffleMapStage 0 (reduceByKey at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:151) finished in 44.249 s
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - running: Set()
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - failed: Set()
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - Submitting ResultStage 1 (PythonRDD[5] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156), which has no missing parents
+2019-04-12 10:28:49 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 6.1 KB, free 360.9 MB)
+2019-04-12 10:28:49 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 3.6 KB, free 360.9 MB)
+2019-04-12 10:28:49 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 10.1.10.18:35721 (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:28:49 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1161
+2019-04-12 10:28:49 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 1 (PythonRDD[5] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) (first 15 tasks are for partitions Vector(0))
+2019-04-12 10:28:49 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 1 tasks
+2019-04-12 10:28:50 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, ANY, 7662 bytes)
+2019-04-12 10:28:50 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 1)
+2019-04-12 10:28:50 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks including 1 local blocks and 0 remote blocks
+2019-04-12 10:28:50 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 6 ms
+2019-04-12 10:28:56 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 10.1.10.18:35721 in memory (size: 3.4 KB, free: 361.0 MB)
+2019-04-12 10:29:05 INFO  PythonRunner:54 - Times: total = 15441, boot = 141, init = 1593, finish = 13707
+2019-04-12 10:29:05 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 1). 1971 bytes result sent to driver
+2019-04-12 10:29:05 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 1) in 15509 ms on localhost (executor driver) (1/1)
+2019-04-12 10:29:05 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-04-12 10:29:05 INFO  DAGScheduler:54 - ResultStage 1 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) finished in 15.580 s
+2019-04-12 10:29:05 INFO  DAGScheduler:54 - Job 0 finished: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156, took 60.147307 s
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 192.0 B, free 360.9 MB)
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 10.1.10.18:35721 in memory (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece6 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 365.0 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece4 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 369.0 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 373.0 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece9 on 10.1.10.18:35721 in memory (size: 862.5 KB, free: 373.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece5 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 377.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece1 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece7 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece8 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece3 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece2 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 397.8 MB)
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2019-04-12 10:29:26 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 4.0 MB, free 393.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece1 stored as bytes in memory (estimated size 4.0 MB, free 389.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece1 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece2 stored as bytes in memory (estimated size 4.0 MB, free 385.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece2 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece3 stored as bytes in memory (estimated size 4.0 MB, free 381.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece3 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece4 stored as bytes in memory (estimated size 4.0 MB, free 377.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece4 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 377.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece5 stored as bytes in memory (estimated size 4.0 MB, free 373.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece5 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 373.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece6 stored as bytes in memory (estimated size 4.0 MB, free 369.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece6 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 369.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece7 stored as bytes in memory (estimated size 4.0 MB, free 365.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece7 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 365.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece8 stored as bytes in memory (estimated size 4.0 MB, free 361.8 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece8 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 361.8 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_4_piece9 stored as bytes in memory (estimated size 862.5 KB, free 361.0 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_4_piece9 in memory on 10.1.10.18:35721 (size: 862.5 KB, free: 361.0 MB)
+2019-04-12 10:29:26 INFO  SparkContext:54 - Created broadcast 4 from top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:29:26 INFO  SparkContext:54 - Starting job: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Got job 1 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) with 1 output partitions
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Final stage: ResultStage 3 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156)
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 2)
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Missing parents: List()
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Submitting ResultStage 3 (PythonRDD[6] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156), which has no missing parents
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 6.1 KB, free 361.0 MB)
+2019-04-12 10:29:26 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 3.6 KB, free 360.9 MB)
+2019-04-12 10:29:26 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 10.1.10.18:35721 (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:29:26 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1161
+2019-04-12 10:29:26 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 3 (PythonRDD[6] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) (first 15 tasks are for partitions Vector(0))
+2019-04-12 10:29:26 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 1 tasks
+2019-04-12 10:29:26 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 2, localhost, executor driver, partition 0, ANY, 7662 bytes)
+2019-04-12 10:29:26 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 2)
+2019-04-12 10:29:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks including 1 local blocks and 0 remote blocks
+2019-04-12 10:29:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-04-12 10:29:42 INFO  PythonRunner:54 - Times: total = 16067, boot = -20754, init = 22396, finish = 14425
+2019-04-12 10:29:42 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 2). 2165 bytes result sent to driver
+2019-04-12 10:29:42 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 2) in 16093 ms on localhost (executor driver) (1/1)
+2019-04-12 10:29:42 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2019-04-12 10:29:42 INFO  DAGScheduler:54 - ResultStage 3 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) finished in 16.103 s
+2019-04-12 10:29:42 INFO  DAGScheduler:54 - Job 1 finished: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156, took 16.109025 s
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 192.0 B, free 360.9 MB)
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 61
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 75
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 55
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 71
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 62
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 69
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 51
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 60
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 70
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 72
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 59
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 54
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 65
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 74
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 68
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 67
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 58
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 66
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 52
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 73
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 63
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece1 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 365.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece2 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 369.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece5 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 373.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece4 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 377.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 381.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece3 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 385.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece9 on 10.1.10.18:35721 in memory (size: 862.5 KB, free: 385.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece6 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece7 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece8 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 397.8 MB)
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 53
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 57
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 10.1.10.18:35721 in memory (size: 3.6 KB, free: 397.8 MB)
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 56
+2019-04-12 10:30:03 INFO  ContextCleaner:54 - Cleaned accumulator 64
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 4.0 MB, free 393.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece1 stored as bytes in memory (estimated size 4.0 MB, free 389.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece1 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece2 stored as bytes in memory (estimated size 4.0 MB, free 385.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece2 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece3 stored as bytes in memory (estimated size 4.0 MB, free 381.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece3 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece4 stored as bytes in memory (estimated size 4.0 MB, free 377.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece4 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 377.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece5 stored as bytes in memory (estimated size 4.0 MB, free 373.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece5 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 373.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece6 stored as bytes in memory (estimated size 4.0 MB, free 369.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece6 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 369.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece7 stored as bytes in memory (estimated size 4.0 MB, free 365.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece7 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 365.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece8 stored as bytes in memory (estimated size 4.0 MB, free 361.8 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece8 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 361.8 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_6_piece9 stored as bytes in memory (estimated size 862.5 KB, free 361.0 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_6_piece9 in memory on 10.1.10.18:35721 (size: 862.5 KB, free: 361.0 MB)
+2019-04-12 10:30:03 INFO  SparkContext:54 - Created broadcast 6 from top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:30:03 INFO  SparkContext:54 - Starting job: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Got job 2 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) with 1 output partitions
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156)
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 4)
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Missing parents: List()
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Submitting ResultStage 5 (PythonRDD[7] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156), which has no missing parents
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 6.1 KB, free 361.0 MB)
+2019-04-12 10:30:03 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 3.6 KB, free 360.9 MB)
+2019-04-12 10:30:03 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 10.1.10.18:35721 (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:30:03 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1161
+2019-04-12 10:30:03 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 5 (PythonRDD[7] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) (first 15 tasks are for partitions Vector(0))
+2019-04-12 10:30:03 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 1 tasks
+2019-04-12 10:30:03 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 3, localhost, executor driver, partition 0, ANY, 7662 bytes)
+2019-04-12 10:30:03 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 3)
+2019-04-12 10:30:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks including 1 local blocks and 0 remote blocks
+2019-04-12 10:30:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-04-12 10:30:19 INFO  PythonRunner:54 - Times: total = 15883, boot = -20232, init = 21864, finish = 14251
+2019-04-12 10:30:19 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 3). 2584 bytes result sent to driver
+2019-04-12 10:30:19 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 3) in 15899 ms on localhost (executor driver) (1/1)
+2019-04-12 10:30:19 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2019-04-12 10:30:19 INFO  DAGScheduler:54 - ResultStage 5 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) finished in 15.909 s
+2019-04-12 10:30:19 INFO  DAGScheduler:54 - Job 2 finished: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156, took 15.913007 s
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 192.0 B, free 360.9 MB)
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 87
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 93
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 82
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 96
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 80
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 85
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 88
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 94
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 77
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 95
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 76
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 78
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 10.1.10.18:35721 in memory (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 86
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 100
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 79
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 91
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 89
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 81
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 99
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 83
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 90
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 92
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 84
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 97
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece6 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 365.0 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece7 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 369.0 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece4 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 373.0 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 377.0 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece9 on 10.1.10.18:35721 in memory (size: 862.5 KB, free: 377.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece2 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece3 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece8 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece1 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece5 on 10.1.10.18:35721 in memory (size: 4.0 MB, free: 397.8 MB)
+2019-04-12 10:30:40 INFO  ContextCleaner:54 - Cleaned accumulator 98
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 4.0 MB, free 393.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 393.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece1 stored as bytes in memory (estimated size 4.0 MB, free 389.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece1 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 389.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece2 stored as bytes in memory (estimated size 4.0 MB, free 385.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece2 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 385.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece3 stored as bytes in memory (estimated size 4.0 MB, free 381.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece3 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 381.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece4 stored as bytes in memory (estimated size 4.0 MB, free 377.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece4 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 377.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece5 stored as bytes in memory (estimated size 4.0 MB, free 373.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece5 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 373.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece6 stored as bytes in memory (estimated size 4.0 MB, free 369.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece6 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 369.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece7 stored as bytes in memory (estimated size 4.0 MB, free 365.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece7 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 365.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece8 stored as bytes in memory (estimated size 4.0 MB, free 361.8 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece8 in memory on 10.1.10.18:35721 (size: 4.0 MB, free: 361.8 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_8_piece9 stored as bytes in memory (estimated size 862.5 KB, free 361.0 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_8_piece9 in memory on 10.1.10.18:35721 (size: 862.5 KB, free: 361.0 MB)
+2019-04-12 10:30:40 INFO  SparkContext:54 - Created broadcast 8 from top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:30:40 INFO  SparkContext:54 - Starting job: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Got job 3 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) with 1 output partitions
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Final stage: ResultStage 7 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156)
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 6)
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Missing parents: List()
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Submitting ResultStage 7 (PythonRDD[8] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156), which has no missing parents
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 6.1 KB, free 361.0 MB)
+2019-04-12 10:30:40 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 3.6 KB, free 360.9 MB)
+2019-04-12 10:30:40 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 10.1.10.18:35721 (size: 3.6 KB, free: 361.0 MB)
+2019-04-12 10:30:40 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1161
+2019-04-12 10:30:40 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 7 (PythonRDD[8] at top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) (first 15 tasks are for partitions Vector(0))
+2019-04-12 10:30:40 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 1 tasks
+2019-04-12 10:30:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 4, localhost, executor driver, partition 0, ANY, 7662 bytes)
+2019-04-12 10:30:40 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 4)
+2019-04-12 10:30:40 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks including 1 local blocks and 0 remote blocks
+2019-04-12 10:30:40 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-04-12 10:30:56 INFO  PythonRunner:54 - Times: total = 15943, boot = -20955, init = 22574, finish = 14324
+2019-04-12 10:30:56 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 4). 1897 bytes result sent to driver
+2019-04-12 10:30:56 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 4) in 15958 ms on localhost (executor driver) (1/1)
+2019-04-12 10:30:56 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2019-04-12 10:30:56 INFO  DAGScheduler:54 - ResultStage 7 (top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156) finished in 15.970 s
+2019-04-12 10:30:56 INFO  DAGScheduler:54 - Job 3 finished: top at /home/milu/Projects/SparkProjects/Homeworks/hw4/hw4.py:156, took 15.973571 s
+2019-04-12 10:30:57 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2019-04-12 10:30:57 INFO  AbstractConnector:318 - Stopped Spark@1c2b9c4e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-04-12 10:30:57 INFO  SparkUI:54 - Stopped Spark web UI at http://10.1.10.18:4040
+2019-04-12 10:30:57 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2019-04-12 10:30:57 INFO  MemoryStore:54 - MemoryStore cleared
+2019-04-12 10:30:57 INFO  BlockManager:54 - BlockManager stopped
+2019-04-12 10:30:57 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2019-04-12 10:30:57 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2019-04-12 10:30:57 INFO  SparkContext:54 - Successfully stopped SparkContext
+2019-04-12 10:30:57 INFO  ShutdownHookManager:54 - Shutdown hook called
+2019-04-12 10:30:57 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-da2ac665-347d-41a4-ab1f-5812aeee939e
+2019-04-12 10:30:57 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-b2a0ec3d-16f0-41e8-8d93-a3745b1b4d2a
+2019-04-12 10:30:57 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-da2ac665-347d-41a4-ab1f-5812aeee939e/pyspark-56485c49-de6a-452e-b8cd-55cdac6de3e2

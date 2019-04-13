@@ -1,0 +1,26 @@
+
+#env
+ubuntu 18.04
+python-3.6
+pyspark
+spark-2.4.1
+hadoop-2.7
+
+#bash_profile
+export SPARK_HOME=~/spark/
+export PATH="$SPARK_HOME/bin:$PATH"
+export PYSPARK_PYTHON=python3
+
+#how to run
+1. source ~/bash_profile.sh
+2. spark-submit hw1.py
+
+#input file
+1. direct.graph (small)
+2. DTest
+
+#output file
+Dres
+
+#log file
+log
